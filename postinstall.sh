@@ -21,6 +21,7 @@ systemctl enable NetworkManager
 systemctl enable bluetooth
 systemctl enable libvirtd
 systemctl enable sddm
+systemctl enable docker
 
 if [ -z "$1" ]
 then
